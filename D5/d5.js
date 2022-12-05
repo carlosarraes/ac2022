@@ -3,6 +3,7 @@ const fs = require('fs');
 // prettier-ignore
 const [rawStacks, rawInstructions] = fs.readFileSync('./data.txt', 'utf8').toString().split('\n\n');
 
+// Parser
 const rawLines = rawStacks.split('\n');
 rawLines.pop();
 

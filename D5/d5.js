@@ -28,6 +28,7 @@ for (let i = 0; i <= rawLines.length * 4; i += 4) {
   lines.push(parserClean(rawLines, i, i + 3));
 }
 const linesTwo = [...lines];
+
 const rawMoves = rawInstructions.split('\n');
 const movesNum = [];
 
